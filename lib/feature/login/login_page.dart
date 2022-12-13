@@ -84,8 +84,8 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                   SizedBox(
-                    width: size.width * .72,
-                    height: size.height * .075,
+                    width: size.width * 0.72,
+                    height: size.height * 0.075,
                     child: TextButton(
                       style: ButtonStyle(
                         shape:
@@ -114,3 +114,4 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 }
+
