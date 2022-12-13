@@ -39,8 +39,8 @@ class MenuGeneralPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
                   Container(
-                    width: size.width * .80,
-                    height: size.height * .1,
+                    width: size.width * 0.80,
+                    height: size.height * 0.1,
                     child: ElevatedButton(
                       style: ButtonStyle(
                         foregroundColor:
