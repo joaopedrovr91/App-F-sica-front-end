@@ -43,8 +43,8 @@ class _HomePageState extends State<HomePage> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
                   Container(
-                    width: size.width * .48,
-                    height: size.height * .05,
+                    width: size.width * 0.48,
+                    height: size.height * 0.05,
                   child: ElevatedButton(
                     style: ButtonStyle(
                       foregroundColor: MaterialStateProperty.all<Color>(Colors.green),
@@ -70,8 +70,8 @@ class _HomePageState extends State<HomePage> {
                     style: TextStyle(color: Colors.white, fontSize: 20),
                   ),
                   Container(
-                    width: size.width * .48,
-                    height: size.height * .05,
+                    width: size.width * 0.48,
+                    height: size.height * 0.05,
                   child: TextButton(
                     style: ButtonStyle(
                       shape: MaterialStateProperty.all<RoundedRectangleBorder>(
